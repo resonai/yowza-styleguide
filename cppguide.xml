@@ -914,8 +914,7 @@ Tashana Landray
         The problems with doing work in constructors are:
         <ul>
           <li> There is no easy way for constructors to signal errors,
-               short of using exceptions (which are
-               <a HREF="#Exceptions">forbidden</a>).
+               short of using exceptions.
                </li>
           <li> If the work fails, we now have an object whose
                initialization code failed, so it may be an
