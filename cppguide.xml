@@ -1066,7 +1066,7 @@ Tashana Landray
         <p>
           Finally, constructors that take only an initializer_list may be
           non-explicit. This is to permit construction of your type using the
-          assigment form for brace init lists (i.e. <code>MyType m = {1, 2}
+          assignment form for brace init lists (i.e. <code>MyType m = {1, 2}
           </code>).
         </p>
       </DECISION>
