@@ -1,0 +1,16 @@
+application: yowza-styleguide
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /
+  static_files: src/cppguide.xml 
+  upload: src/cppguide.xml
+  login: required
+
+- url: /
+  static_dir: src
+  login: required
